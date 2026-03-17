@@ -1,0 +1,14 @@
+# Build output / binaries
+ohpy
+hpw
+*.exe
+*.o
+
+# SEAL build artifacts (optional - keep source, ignore built objects)
+SEAL/build/
+SEAL/native/build/
+
+# Editor / OS artifacts
+*.swp
+*.swo
+.DS_Store
