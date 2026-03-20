@@ -6,7 +6,8 @@
 
 // Requires Microsoft SEAL installed and available on the include/link paths.
 // Compile example:
-//   g++ -std=c++17 main.cpp -I/path/to/seal/include -L/path/to/seal/lib -lseal -o hpw
+//   LD_LIBRARY_PATH="$HOME/SEAL/install/lib:$LD_LIBRARY_PATH" ./hpw
+// g++ -std=c++17 weather.cpp -I"$HOME/SEAL/install/include/SEAL-4.1" -L"$HOME/SEAL/install/lib" -lseal-4.1 -o hpw
 
 #include "seal/seal.h"
 
